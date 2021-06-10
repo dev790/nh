@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <!--<title> Responsive Sidebar Menu  | CodingLab </title>-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="sidebar">
+    <div class="logo_content">
+      <div class="logo">
+        
+        <div class="logo_name">Karna</div>
+      </div>
+      <i class='bx bx-menu' id="btn" ></i>
+    </div>
+    <ul class="nav_list">
+      <li>
+          <i class='bx bx-search' ></i>
+          <input type="text" placeholder="Search...">
+        <span class="tooltip">Search</span>
+      </li>
+      <li>
+        <a href="home.html">
+          <i class='bx bx-grid-alt' ></i>
+          <span class="links_name">Home</span>
+        </a>
+        <span class="tooltip">Home</span>
+      </li>
+      <li>
+        <a href="disease.html">
+          <i class='bx bx-pie-chart-alt-2' ></i>
+          <span class="links_name">Ear Disease</span>
+        </a>
+        <span class="tooltip">Ear Disease</span>
+      </li>
+      <li>
+        <a href="hygiene.html">
+          <i class='bx bx-heart' ></i>
+          <span class="links_name">Ear Hygiene</span>
+        </a>
+        <span class="tooltip">Ear Hygiene</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-folder' ></i>
+          <span class="links_name">Ear Test</span>
+        </a>
+        <span class="tooltip">Ear Test</span>
+      </li>
+      <li>
+        <a href="feedback.html">
+          <i class='bx bx-chat' ></i>
+          <span class="links_name">FeedBack</span>
+        </a>
+        <span class="tooltip">FeedBack</span>
+      </li>
+      <li>
+        <a href="index.html">
+          <i class='bx bx-log-out' id="log_out" ></i>
+          <span class="links_name">Log Out</span>
+        </a>
+        <span class="tooltip">Log Out</span>
+      </li>
+    </ul>
+        
+      </div>
+    </div>
+  </div>
+  <div class="home_content">
+    <div class="text">Ear Disease</div>
+  </div>
+<div class="copy_right_footer">
+  Developed by - Dev Nagda
+</div>
+<div class="homcontent">
+    <div class="text">7. Ear Dizziness</div>
+  </div>
+  <div class="homentent">
+    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUUFBgUFBUZGRgaGRsdGRgbGh0bGRsdGxoaGhkcGhsdIS0kISEqJBgaJjclKi8xNDQ0GiM6PzoyPi0zNDQBCwsLEA8QHxISHzUrJCozNTEzNTMzMzM8MzMzMzM1MzM8MzMzMzMzMzUzMzMzMzU8MzMzMzUzMzMzMzMzNTwzM//AABEIAK4BIgMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABQYBAwQCB//EAD8QAAIBAgQDBgMGBQIFBQAAAAECEQADBBIhMQVBURMiMmFxgZGhsQZCUmLB0RRykqLwI4IzstLh8RUkNFPC/8QAGQEBAAMBAQAAAAAAAAAAAAAAAAIDBAEF/8QAJhEAAgICAgEEAgMBAAAAAAAAAAECEQMhEjFRBCJBcTJhgZHBE//aAAwDAQACEQMRAD8A+zUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgMV5Jri4rjeySQJYmFHn1PkKrd/B3LnfdyzfT0HKq5Trotx4uStukXOhqn4Ti72SFeWXodx6GpfF8QkKVMqwIHXMNY9aLIqs68Ek6JfMK9VSLfGrgfv8AI5WHpsfcT8DU7huIa66/qP3opo7P08ok3SvCMCJG1e6sKBSlKAUpUdjcQ5cWbRAcgM7kSLaEkAxzZiCFB07rEzlggb8VjbdqM7qpbwgnvMeirux8hWj/ANWt/hu+v8Pe/wCis2MHbsguB3iO/cY5naPxMdT5DYbAAVwXeLufAoA5Ztz5xUZTUeycYOXRK4XF27gJR1cAwcpBg9DGx8jXTVTfiKXHy3bZS6o7ty2QHA6qT4l6qZGmqkVL8L4jnJtuR2igGYIDqdnUHUbQV+6eoKkozT6EoSj2iWpWKzUiApSlAKUpQClQX2nxN1LaG1cyE3AGaIGXK5ILm26pqB3mUgkZdCwIicP9pMSTk/h2kJbhnXKzF0tMXZFJKrmdlIAgFD3uQAudKqDcfxI8VoSsnuBspEYle9KkwDYV+7rDga/e9HjuIGdkti4FS4+iuA/ZgkC2CuaXMR4h+HMIkC20qn4v7SXQrooBY2yUuIr5WMYmSgZYOU2rfUf6g1MifeH+0N97rWltAQ4QMysAAHZXLAGdlDCQviESCGIFspXJcxyLPemN4BMepGg965243aG5/uT/AKq5aJKMn8EnSuK1xG22zgToJ2J6A7E+QNds0Ts4012ZpSldOClKUApSlAVzjBzX1Xkqz7sTP0FQGN4sbbwdp0P71M8Ruf8AuHHkv/KKqfGrGcherfpWSb9x6eCCaV+CeV1uryB59PU15e21u2SuY+FhPLXusFjTaImdfaofgubKVMnuxE6kMwX6E/CrdZYFTIGx+AH+fCoq26R3I+H0V7ilvXMNJj2Pdg/NP7q6eFX86gc11A6jUR6gg/CvHEtS+khYJA5qRDAexJrg4dfKXFJ1GYqT6jXTzIX+o0TtItceUPouOAxZXQ7aSP1Hn5VMW3DCQZFVtlyknX9eew57nYV04XEFTI9xyP8Ak/HrzvhOuzzsmO9onqVqt3wwkH251h8Qo3Yem5+VW2iimbqjOCCUN073mNyfytpbHsgQeoJ51rxnG7dsEsVABAJJ5kwBHrUFgftBFrD2mVlzIiK2RshcdwoW+6cykQY3FRc0TWOTJTjmJz9xT3QVzHlqYFV7EW7Vy+1u65VgQLe4AnYqdpn3rfxm4RZuKrQ4COROoBJIkb65TXjiOE7a2l+2YJUZx05z6gzWab5PZrglFUYxrkYxF6JqRzOmvyqOxt5gwuTHZvqWAACs2R5JGwBzeqLUnxqExFm4CIIg++oP9vzrm4lw629t0guHdBIMIC7qqgkamCwMDpNQcqdE7VW/B04XjxkBcQrHoSQCfIkAH2qxcP4xmOW4Mp6/v+9Qd3g1u2O7Yt+5Y/MitVnPEMuXfJqZ03WDrsNJ2j0pHNKLpkZYoSWi8Bx1Hxr3VV4QrEnKrsNCO9CqDyifI9dIqzWwY1rTiyOfaox5IKLqzbSlKuKyK41xUYdUMAl2KjM4RBlR7jFnbQd220ecbCSIcfbANca1btBmD5V/1IVhGIJJOXT/AOM/hzAyNd4tFy2rCGAI0MESJGo3rC2EBJCqCTJMCSep86Aqz/bBWudnbUb2yGJ3U3LKOCCAoI7YQQzAEGYiK78D9pEfDm/cUqA4RlXM5UnLBPdBiHDExEaiRBMyMOgMhVnTWBOkRr7D4CuHjFoLZXIAoW9YaAIAAv2y2g8s1ASHaCJkREzOkdZqB4txMk9mm55bCOZb9vrsOXG4sYU9mJ7Fmi3GotvOts9EmcnIEFdIQHjS0Xts5OrCZ2OURsYMEiTtuRVOSfwjRixrtmy3YNwAsc0bE7ey7AVC3OM2hce29p1S2YLm0Ss8ycqnKsQQeczpz3XOJdkMuXUzlQEQJM7yYAkKBJgKANBWjD8fdWDXLYCGAXWcwHKZOoEnpzqEJwV81finRpUW1Zve1lXtMM0qROUEMrL+UmZH5TXTw3iTmOxYqf8A6yZU/wAmbQH8p9iNq2/wYt3HFuAlxO0Cjwh1YByOmYOhjqpPOoK8kXzDFQSr6Rudx6Eg1CdRl7XrskkpLZ9A4TxXtO64yt7gHyg7HyqXqpYZs6lzoy/eG5AE69Y5cx8qnOFcQF1SJGYbgTtyOoFXwnemYsuOtokqUpVpSKUpQFY4qsYn+ZQfqP0qA4muW4p/N+hqzfaNIa0/mVPvqPoaguN25g+YrLkW2el6eVpfRy4MBGGm65R6yrD5rHvVlskZSREQT5baVAYmwOz9q7+C4guig+LSfPvFSfU6H1NQT4u6JZY2rOfEKVZuWh0G3dltPI/rUM1o27hHLOhHsRH9pqfxa7aaxIHpp86hcbMiegU+RA7rehEe6xvSP4ovxMtJbUaSPpp/nxrTpPdH3SRBAJndVnntr6dawl3OgZd4gaTBiNv0rKHXY7769BM/0r71JMyNUbjf3AYDxDrJAGg1Gu+gmY5Vl2mesEQdp0O/lMTp+tagjCJPWTziREwN45g/dHXQ9xVWdx8B7nbyn0qSaI14In7S4ZrloMkl0uB1yyfPUc47p05e9cVjFLcCHVUuXNCIm3dEMy/7mUXFOsl28gfXG+MOqHs482jYflHM+Z+HOtps5LfeVbll4ZsqKG1AObKAA2w6HTc7US5bJyi4pWYwWNwsK+dzdu5c7lO8zGNA3hVQenIb1OYe2hkocikQQeZPXzr59jXuYO4GtG04MOjkHtChPeUEyAY0kiTOvMC2cP4r2luVths2zB0AHSDEj+mah09nHF1aPfFcOSIIEAiCu4K+EgmujBXTdKEGEtyxYDRrhBQBOoWXB37xHNDUVawTXDka4qTIy28yF5071weLrARZ6xpU/hrBtqFCjKAAoUQAAZUADaOWlRiqdie1R7uuyzBY8yrcxULxVGXEYc25IdwCB+GVJJ9FL/AVM3szEaQACBM89ySfoK50cNczgxbRSJ5FtAB7R86NJvZyOjq4ffFu4QTC7HprrPT/AA1ZAapDXZcvrz05TOvzj51L8N4kVGU6jpzFW48iWmV5cTfuRYazWmzdDCRW2tCdmR6M0pSugxUT9prmXC3iNxbdh6qpYH4gVJXLgUEnYf5p58qrfGbxZGQ7uGUwdpBAA+MepJqE5UieODkyL4zdFzOhGZHXKEg6akZgRy29IrvuLltkD0HoNK5MVZNq0gaC0LnI5sBrHlMxWzGYr/U7IbZGuH+tVEf3fKsyTlf6NmtURGBwouMWIBnWSAfTepPEcEVlIj4fttUDh+LtZYobU5Tl8RBJEjpHKrNwfjlq8Sqkhx4kbeOZHIioRj5LJuS2ujOGXJbUMZKJkB6wB8+6KqeKuD+I100XUQep5+tWfitl8xZZhjrq2WMqzpmgHMn4YgsN2qo4s/8AuG/2D+0Gkxhd2W7BMMhIOjKQCBGhU94TuYA51wcJxnZXFeWIkK2mpDaGY0nYgDpXbgXOUkSYVjliZ0MbDeY+NQWV9VysrD7nTKCdI3Ec+ldb0mhSbaZ9SBrNRvAcQXw6Md8sGd5XTX4VJVtTtHmyVNozSlK6cI3jtrNZbqIYf7TJ+U1Wsf3rYPp9auN5MykdQR8RFUtj3EX830qjKtmz0z19G3FJ/pgeVeeGMttvkT0BiCPcfOt3ERAWOlQXE8QyhcphutVPTNUY8lXktWKRXMnrqQdRvy959zUNi8I3TOusMIBjmCD7dZ6A6118MxodAW5EyYELPI/KOs+1esbjlRdSqncAiCfQbx5xXN7f+FcOUXxSIzC2bqHuSR0KmPnt8TUm166ol0GvJWkj10qMxHGGbwlvWYHwA1+Va1uXH27s9J+pJIqVoucW9ySO+5iu7mcgTsJmfSN/p1rjcPd/Kg2H6mt9rBAd5zJPX9SfrW+0mY9By018onQA9SDMjQVxtsjaj0ca4RAIgnkdJro4dd7FTbcHJqRIPdH7VIWcMABlUb6kydOe9e3sNGgX4eY/Sa7F8WVzmpKmVX7TYS3Au2+8oBBCkGFcyI6d4t7uKgsBgbgn+H7XXUhRp5ypBE/WN6v/APCBTJtrOuomSZ7oE9RHMa11AFgQYjYCSY5azz8XwFdk73RKOTjHj2UO7wPEOp7TtCOgYMPIlEM/EaVN8DvFra2xcY3EBDhmLMYPi7249NucbmZa8egOnPrMdPT4+VcvFOFJiBvluoe68xOxAJGsidCNR8jFJPQlO+w9h30ZmYdAQJ+GpHvW1rJChQIA2HKq+eIXbRKX0N0L4theXznZx5mCetTPC8at1c1i4HUeJG8S+qnVT8vWjxoNNBkIOg3Eb6GNRrr6ddZrtwWG1gTv0j4+fP1NdFpFfYQean9Ov/mpfB4UKJ50hjbZTky0jdh7eUVupWa1pUYm7MV4dwoJJAA3J0FcfE8RkUNmKie8wKgAQdWLDQafSovtmaGC5lgENJfXNrlE5R3dZHWoylRKOPls6MZiS3eggDwjY/zkHbSYB9dyIi7JzXE/mJ+AMfOKzfdjnDK576SZ5AA5l8pBB5+2tbEMMh6z8wTVEnbs1RjxicH2tv5LZjeAB6sY+k1F4nEZBhcWx7hU2bx/CLmWHPkLiCf5q6/teC1swNsp+B1+RNc32ew1rEWmw95A6+JZ3E6MVI1UjTUdalhyRjk307TJ8fZZy49hnS8sFLijvaxIAjz1XKfjWlmFu5bvL91wSOcEww9CpNWrF8ERbC2hJRUVZMFu6IVp/EI99aqtzCOHSy2xcBW+6RmEnXoOXL4VVNJS9pZGalEvWJtyjAVQcauXEmeYU/25R9K+jIJU+dUP7QWouJcHmjexLL8e8PauTRDC9tFkwBPZ6HcEAyRGhGhNV+0SpUhpI+8AVkzyG4/z0qW4TdkAAToSdYERE/OvVvhqoQHJ2AX70gDcnrprI51XOdRJrUnZO/ZVybTT+M/NVNTlRnA1UIcu2Y/QVJ1twu4Jnn5fyZmlKVaVnk1ScQIuDydh8/8AtV3qn8TSC3lcJ9iSf1FVZekavSvbRt4p4RVX4gZuAeVWbFnMg9KreJXviaol2bsOke7NoyIJHWCRp7V7xOAg+9SFqyAoNMfeBUZRJG/Qep2HvSjvLejVhuHRrvXbAQefIcz6Vpwz3TpA9F7x9z4R6gmt9vCtmYMQsCWPiIB8/jtA9a6oshKXlmEsMxBOsxpEg6/8o+Z8gKlcJgcx3MfeP6eu/pNReCu3MQ4RYCDdhoWUGJPr0q320AAAEAVZCF7ZlzzcdfJrTCoPug+ZEn4mvfYr+EfAVspV1IyWzQ+FU8o9NPpWh8F0PxGvxFd1K44pnVJoqt3DlWIfkdehGm4O86/Ko7HYZ7ZNxTqdT0PqOYq6YjDJcEMoPnzHoRqKh8bw9lBglrfMHxr5g/eHz9a5CCVmnHmvsgrF61jEGeVuLMMPGvWPxL1H00NQPE+E3LNwXFOR/uXU8D+R6E81O/nUtjOHOpVrcAAzmG/xqRwWPDjs7qgkiCpHdceQ2ny+FRlA1Xx2trwcHBOP9qwtXwLd77rDRH/l6N+U+07C22Mfk7r/ANVU7jX2eXIXSWTmN3TzB3ZfmPPlr4Txx7MWsX37Z0S9uQOWc8x+bfr1EU2ivJjjNXH+j6PbuBhIMjyr3VdtFk79psynluDUtgsctzTZuYqyMrMUsbW10c32i4auJw72nkAwQRuCpzA/KvlnE/s/dw4LW7hdF1MSrL5lZiPMV9nqlcYsdmzgiVgwOqlSP3FQyrou9PKrRt4HduX8NZctLbOYktkfKdZ5hdfWo/7Ucft2Slu2czq6l42VVMsJ6naPWuHh/GbuBQ2WQMNWttMDvbzpqJ1jQzNasD9lHvDtcSxtodYj/UedSTPhnzk+VVXfRckk7l18E3xUq6xMhhHsRv8AOoHgtq7adXKFQp1J7oK7NE6nTaPKrGr2rYW3aUsVAA5sANBLHYVlOGtc1ck/lGg+O5+VV8d6JKVRpnTiMeQFykAEmWjMcsbqo3070ayFI5yOW/hpAcaSfI5HEjQgnUGRpymvD2uyMAGPwySD1Bma2cQxTwrJ30HjQauRvmWNZHNTuNtQAZWmqK+Li7XRI8PxE2wW00+fOqxx4Z1uRqBDfBgf0NTNrKbYKuHVhIPIzrIIO1c1xUgrpBBBHkdDUZPqycFTbRG8D4gF3BIiDAk7gyB6j5mpXFYprkJbVsxKmWAVQBmzE847w1jnVf4W3YXezuMQpOhzlEYDZiw3HlNXXh6B2BA8UEn8o2+vxNQ4Ob4ksjUfdRKcLwvZ2lWZO5PmTJ+tdgrNK9CMUkkvg81u3ZmlKVI4Yqs8atf6jD8Shh6jT/8AI+NWaofjlvwv0JB99R9PnVeRXEuwSqZDYE50iuDiWBY6qCSOQE/Su3DDJcYDY6j3/wC9bGS2UDXCDM+PYCTGWdPhqd5qjukbuXF2iPwudgEYGeSxr6t5eXP0mpJ8LbtqDcJnkAdfRf8AAPIVqGJtWl/0wJ66x8/oKj7SPcuHNqWMRznoeg8qspR12yVOW+kbLeLuJIQgAmZIkjkddjsOVSOG4Q93vOIB3LaFh6amPIkCpzhvDEtDaW5sf06CpAVOMPJkyepV+xfyR/DOHC1mMyT0EAAchUjSlTSoyyk5O2ZpSldOClKUArFZpQEHxDD9mc6+A+Icln7wHTr0qD4rgCxDL4dxHXrV1ZZEGoS/huxPW2x/pJ5Hy6H2oacWWvsjOF8SMi3c8XI/j8j+b61x8YwCocyqDacwy/gY7EeR+R9dPfEuGFmL8h4Y3jka3YC/2gazd8RUj+Ydf5h/m1VyiaVr3R/kgrVjE4U5sO+ZD9xhK/uKlOHcTvu4LWUQgjvAn6QK7+GLoUbxKSp9ufvv71KYXBBmBjQan9q4onMk4q7RMCorj/DTftEL4hBHnBBK+8VLUqxqzz02naPn3GsRat3cKzrKK7zI1EKokjyaDHlVgu8Ywjr3rtsjzdfpNa/tZ9njilVrZAdJIB8LTEgnke6IP/kfO74S2xS6jK43VhBH7jzGhrNNyi3rRsxqOSK3tF5ucawKeG4n+0E/QV1DiKx94D+Rh+lfPOEYFsTdXs07isCxOggGYnqelXNgQSQQzKTqdEUgwcoiJGok9Kgm3snKEVrskux7Qzy+ntvXV2GkAVF4a8YlgY/qLfyit1jEsCxg5Mv3joCNdzyiZqaSK3ZF4/AvbZriAlCSXRdTJ3uIPxdVHi3He8XOyyodTmUiQw1BB2IruxH2gtqe+LgHXIQp9CxE1wreQuTYzOGJZ7QRs07tctgTrzZfvbjvaNVKCfRbGTira0andiMgEltANySdBV74bhOzSDud/wBAPSorh1jD2Mly5dthrkdmWdQDm2FuT3iZG3X4z73AIBIGYwNYkwTA6mAT7Gr8OLjt9mfPmUtR6NtK0i4MxWRmABInUBiQCRvBytB/Kelbq0GYUpSgMVy8QsZ7bLzjT1Go+Yrqoa41ejqdOykvcnI3t/nwrfhrUoqtrAyyeRQQI9QDPpWOJWMt5lGxOYD11+s1mwSrwfC/wDAaSD1H0rHki2v2j01K42iKZoDPu+wPQnYj4/L4y3AgvarHMNHw0+h9yajr1rKQupAJ/tEifj862YPEZHVvwRPpLA+0TVkH0yzIuUGkXus14RgRI2r3Wk8cUpSgFKUoBSlKAUpSgFa3QMCCJBEEHnWylAV7EjsTkaSjeFun5T/moqs41Xd86kqqtKkaHMOYq+43DC4hVuex5g8iPMVW1WC1m6IYbHkw5MP861x70bcGRV+zkwHEM90yIYquYciwkEjyjLpyq4YPwzVAbAtma4pIhu7H7dDVm4Nx604COcjDQg7E9QfPofnXEPUQtXEsVKUqRiMVH8S4TZxAC3ravGxI1HoRqKkKUo6m1tFV4lwK8ij+ENsxslyUUDyKKZPsPWtQw+IUDNZQsQCxVZhiNdm19at9Yqt40+tFkczXeyAwGHYd51bN/KR8or1jcE9xGVRBKkAnYHQiQeUgVPUrixryHld2V3hnBbgWLxUHmEJKkdGDCPhUxhMDbtAi2irO+UAT611Uqail0RlOUuyE4tw267s9vsjnsm0y3VLKASTmCjRgcxDIYDQuoiom59mcSz3X/iAudnKEFjkLJiUV1EAhh26fePg0IEAd/FFxLYlRZzhQts5s2W0D2jdoGBBzFkGUROUkGOdRH/pHELlu4l240G3eyKLmUl2TDi2GILGMy4g+KO+NAIVZEDpv8AxJDG3cRCUyhA90osrilJDHUx/EW22GtuO7AI6rH2edbnadoS3aF5zvsb9xyIJj/huE9ulctzheLYOuuVzdKgXEVQHuX3h1CnMxD2jIP3T3hBD+LmB4nleLkt2ilRmCqf8AiSZzEhDmt7RGScjahwLpSlKAUpSgKzxxYxCnkyAe4J/cV5dIyGJ736HbzqQ+0FklBcA1Qyf5T4v0PtUeLodIETGnrVElTaNuOVxX9EZxNSD7N9QtecPhSzkctJPk8t8ivzqVQKwDkd1uR3zE6+gnlXqxZJzFdFVgpA+8T59BmH+TVOObeq2i/wD61GiX4RPZJO4AB9hXdXLgBCAREE6dO8YrqrVD8UebL8mZpSlTIilKUApSlAKUpQClKUBiuDifDxeUa5XXVW6HoeoPMV30odTadoqd0Nla0yhW5AbEdVPMVHjBjMqtEFlzHoSywo/q38quOPwS3VynQjVWG6nqP251BYbhrdsodSYOZn1ynKQU8uunp0qMtmzFmVP4LQKzWKzUjEKUpQClKUApSlAKUpQClKUApSlAKUpQClKUB5IqvYzgbBs9kiPwHSP5T+hqxUqMop9koTcXoreH4XdZu+SinxAMCDy0iYNTlnCqihRoBHroZ1ropSMUiU8kpdmFWK9UpUisUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgFKUoBSlKAUpSgP/9k="></img>
+  </div>
+  <div class="h1">
+    <div class="text">Signs and symptoms of Ear Dizziness may include:</div>
+  </div>
+  <div class="h2">
+    <div class="text">-Vertigo</div>
+  </div>
+  <div class="h3">
+    <div class="text">-Disequilibrium, feeling off-balance, unsteady or wobbly</div>
+  </div>
+  <div class="h5">
+    <div class="text">-Lightheadedness, a vague sense of being disconnected with your surroundings</div>
+  </div>
+  
+  
+  <div class="buton">
+<a href="disease6.html">
+ <button class="bton">Back</button>
+</div>
+  <script>
+   let btn = document.querySelector("#btn");
+   let sidebar = document.querySelector(".sidebar");
+   let searchBtn = document.querySelector(".bx-search");
+
+   btn.onclick = function() {
+     sidebar.classList.toggle("active");
+     if(btn.classList.contains("bx-menu")){
+       btn.classList.replace("bx-menu" , "bx-menu-alt-right");
+     }else{
+       btn.classList.replace("bx-menu-alt-right", "bx-menu");
+     }
+   }
+   searchBtn.onclick = function() {
+     sidebar.classList.toggle("active");
+   }
+  </script>
+
+</body>
+</html>
